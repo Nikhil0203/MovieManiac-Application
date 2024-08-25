@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar > h1 {
+  font-size: 30px;
+  color: #ffe400;
+}
+
+.navbar_links > a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
